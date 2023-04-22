@@ -1,0 +1,87 @@
+/* .form-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .select-option {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .bt1 {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bt1:hover {
+    background-color: darkblue;
+  } */
+
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 190px;
+    background-image: url("./S.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .select-option {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .bt1 {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bt1:hover {
+    background-color: darkblue;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-cont {
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    .select-option {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    
+    .bt1 {
+      margin-top: 5px;
+      padding: 3px 8px;
+      font-size: 14px;
+    }
+  }
